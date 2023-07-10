@@ -257,16 +257,16 @@ while (i >=2) {
 Pista: puedes usar la función prompt de JavaScript.
 
 ```jsx
-let respuesta;
-
+let respuesta = '';
 do {
-	respuesta = Number(prompt('Cuanto es 2 + 2?:');
-	if (respuesta ==4) {
+    
+	respuesta = Number(prompt('Cuanto es 2 + 2?:'));
+	if (respuesta =='4') {
 		alert('Felicitaciones! Eso es Correcto!');
   } else {
 		alert('Eso no es correcto. Por favor, intentalo de nuevo.');
 	}
-} while (respuesta !=4);
+} while (respuesta !='4');
 
 ```
 
